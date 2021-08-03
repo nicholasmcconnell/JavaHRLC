@@ -31,7 +31,7 @@ public class ArrayListLinkedList {
     }
 
     static void LinkedList(){
-        List<String> linkedList = new LinkedListDemo<String>();
+        List<String> linkedList = new LinkedList<String>();
 
         linkedList.add("blue");
         linkedList.add("pink");
