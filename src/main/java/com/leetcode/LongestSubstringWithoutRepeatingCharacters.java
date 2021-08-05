@@ -39,10 +39,12 @@ public class LongestSubstringWithoutRepeatingCharacters {
 
         while(b_pointer < s.length()){
             if(!hash_set.contains(s.charAt(b_pointer))){
+                System.out.println("b_ointer" + s.charAt(b_pointer));
                 hash_set.add(s.charAt(b_pointer));
                 b_pointer++;
                 max = Math.max(hash_set.size(), max);
             }else{
+                System.out.println("a_ointer"+s.charAt(a_pointer));
                 hash_set.remove(s.charAt(a_pointer));
                 a_pointer++;
             }
