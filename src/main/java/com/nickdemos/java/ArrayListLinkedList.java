@@ -4,13 +4,10 @@ import java.util.*;
 
 
 public class ArrayListLinkedList {
+    List<Integer> linkedList1 = new LinkedList();
 
-    public static void main (String[] arg){
 
-
-    }
-
-    static void ArrayList(){
+  public static void ArrayList(){
         List<String> arrList = new ArrayList<String>();
 
         arrList.add("nick");
@@ -30,7 +27,7 @@ public class ArrayListLinkedList {
 
     }
 
-    static void LinkedList(){
+    public static void LinkedList(){
         List<String> linkedList = new LinkedList<String>();
 
         linkedList.add("blue");
@@ -47,5 +44,23 @@ public class ArrayListLinkedList {
 //        System.out.println(linkedList.clear());
 
     }
+
+    public void reverseLinkedList(List<Integer> linkedList1){
+        //Iterative Approach
+//        ListNode prev = null;
+//        ListNode curr = head;
+//        ListNode next = null;
+//
+//        while(curr != null){
+//            next = curr.next; //save next
+//            curr.next = prev; //reverse pointer
+//            prev = curr; //advance prev
+//            curr = next; // advance current
+//        }
+//
+//        return prev; // new head
+
+        //Recursive Approach
+}
 
 }

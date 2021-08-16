@@ -2,32 +2,21 @@ package com.nickdemos.java;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.LinkedList;
 import java.util.List;
 
 public class Driver {
+     public static void main(String[] args) {
+         List<Integer> linkedList1 = new LinkedList();
+         linkedList1.add(1);
+         linkedList1.add(2);
+         linkedList1.add(3);
+         linkedList1.add(4);
+         linkedList1.add(5);
 
-    public static void main(String[] args) {
+    ArrayListLinkedList reverseLL = new ArrayListLinkedList();
 
-//        StringsIntro.subString();
-//        ArrayListLinkedList.ArrayList();
-//        ArrayListLinkedList.LinkedList();
-
-        int[] gradees = {4, 3, 5, 6, 7, 5, 4};
-        List<Integer> grades = Arrays.asList(5,4,5,6,7,56);
-        System.out.println(Arrays.toString(grades.toArray()));
-
-        for(int i = 0; i<grades.size(); i++){
-            grades.set(i, grades.get(i)*2);
-            System.out.println(grades.get(i));
-        }
-
-        for (int grade : grades){
-
-        }
-//        grades.add(5);
-//        grades.add(10);
-//        grades.add(1, 7);
-
+    reverseLL.reverseLinkedList(linkedList1);
 
     }
 }
