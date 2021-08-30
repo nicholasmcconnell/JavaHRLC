@@ -2,11 +2,9 @@ package com.leetcode;
 
 public class Driver {
     public static void main(String[] arg){
+        StringToIntegerATOI result = new StringToIntegerATOI();
 
-      RemoveDuplicatesFromSortedArray result = new RemoveDuplicatesFromSortedArray();
-    int[] nums = {0,0,1,1,1,2,2,3,3,4};
-
-        System.out.println(result.removeDuplicates(nums));
+        System.out.println(result.stringToInteger("4193 with words"));
 
     }
 }
