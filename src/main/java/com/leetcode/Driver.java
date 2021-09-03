@@ -2,10 +2,14 @@ package com.leetcode;
 
 public class Driver {
     public static void main(String[] arg){
-   ContainerWithMostWater result = new ContainerWithMostWater();
+   TwoSum result = new TwoSum();
 
-        int[] height = {1,8,6,2,5,4,8,3,7};
-        System.out.println(result.maxArea(height));
+  int[] nums = {3,2,4};
+  int target = 6;
+
+        System.out.println(result.twoSum(nums, target));
+
+
 
     }
 }
