@@ -2,17 +2,10 @@ package com.leetcode;
 
 public class Driver {
     public static void main(String[] arg){
-   TwoSum result = new TwoSum();
 
-  int[] nums = {3,2,4,5,4};
-
-  12, 6, 8
-
-  int target = 6;
-
-        System.out.println(result.twoSum(nums, target));
-
-
+        int[] nums = {-2,1,-3,4,-1,2,1,-5,4};
+        MaximumSubarray result = new MaximumSubarray();
+        System.out.println(result.maxContiuousSubArraySumLinearTime(nums));
 
     }
 }
